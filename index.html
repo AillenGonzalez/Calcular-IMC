@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Índice de masa corporal</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+</head>
+<body>
+  <main>
+    <div class="contenedor">
+      <h2>Cálculo IMC</h2>
+      <div class="divAltura">
+        <label for="altura">Altura (M)</label>
+        <input type="number" id="altura" />
+      </div>
+      <div class="divPeso">
+        <label for="peso">Peso (KG)</label>
+        <input type="number" id="peso" />
+      </div>
+      <div class="divCalc">
+        <button onclick="calcularIMCYMostrarResultado()">Calcular</button>
+        <button id="mostrarGrafico">Mostrar Gráfico</button>
+      </div>
+      <span id="resultado"></span>
+      <canvas id="grafico" width="400" height="200"></canvas>
+      <div id="informacion-adicional"></div>
+    </div>
+  </main>
+  <script src="./scripts/script.js"></script>
+</body>
+</html>

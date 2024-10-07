@@ -1,0 +1,29 @@
+{
+    "datosGrafico": {
+      "labels": ["Bajo de peso", "Peso normal", "Sobrepeso", "Obesidad grado I", "Obesidad grado II", "Obesidad grado III"],
+      "datasets": [{
+        "label": "Número de personas",
+        "data": [10, 25, 35, 20, 15, 5],
+        "backgroundColor": [
+          "rgba(255, 99, 132, 0.5)",
+          "rgba(54, 162, 235, 0.5)",
+          "rgba(255, 206, 86, 0.5)",
+          "rgba(75, 192, 192, 0.5)",
+          "rgba(153, 102, 255, 0.5)",
+          "rgba(255, 159, 64, 0.5)"
+        ],
+        "borderColor": [
+          "rgba(255, 99, 132, 1)",
+          "rgba(54, 162, 235, 1)",
+          "rgba(255, 206, 86, 1)",
+          "rgba(75, 192, 192, 1)",
+          "rgba(153, 102, 255, 1)",
+          "rgba(255, 159, 64, 1)"
+        ],
+        "borderWidth": 1
+      }]
+    },
+    "interpretacion": "El Índice de Masa Corporal (IMC) es una medida que indica si tu peso es adecuado para tu altura. Un IMC inferior a 18.5 se considera bajo peso, mientras que un IMC superior a 25 se considera sobrepeso. ¡Mantén un equilibrio saludable!",
+    "consejos": "Para mantener un peso saludable, asegúrate de llevar una dieta equilibrada y hacer ejercicio regularmente. Consulta a un profesional de la salud para obtener orientación específica."
+  }
+  
