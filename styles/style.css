@@ -1,72 +1,76 @@
-* {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
- 
- body {
-   width: 100vw;
-   height: 100vh;
-   display: flex;
-   justify-content: center;
-   background-color: #08708A;
-   color: beige;
- }
- 
- main {
-   width: 500px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   gap: 20px;
- }
- 
- .contenedor {
-   border: 2px;
-   width: 500px;
-   height: 600px;
-   border-radius: 5%;
-   background-color: #56a5b1;
-   padding: 40px 40px 10px;
- }
- 
- h2 {
-   text-decoration: underline;
-   display: flex;
-   justify-content: center;
- }
- 
- .divAltura,
- .divPeso,
- .divCalc {
-   width: 90%;
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
-   padding-left: 40px;
- }
- 
- input,
- button {
-   padding: 10px;
-   font-size: 20px;
-   outline: none;
-   border: none;
-   border-radius: 5px;
- }
- 
- button {
-   gap: 20px;
-   cursor: pointer;
-   background-color: #032B2F;
-   color: white;
- }
- 
- span {
-   display: flex;
-   justify-content: center;
-   padding-top: 200px;
- }
- 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #573c4e;
+  color: beige;
+}
+
+main {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contenedor {
+  border: 2px;
+  width: 500px;
+  height: 600px;
+  border-radius: 5%;
+  background-color: #beabbb;
+  padding: 40px 40px 10px;
+}
+
+
+h2 {
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  color: #301129;
+  padding-bottom: 30px;
+}
+
+.divAltura, .divPeso, .divCalc {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 40px;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+gap: 20px;
+cursor: pointer;
+background-color: #2f032b;
+color: white;
+margin: 30px;
+}
+
+button:hover{
+  background-color: #573c4e;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
